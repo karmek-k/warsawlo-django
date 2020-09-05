@@ -8,3 +8,5 @@ envname/
 static/*
 venv/
 .env
+.vscode/
+docker-compose.yml
