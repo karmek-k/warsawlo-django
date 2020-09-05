@@ -1,0 +1,6 @@
+[flake8]
+exclude = 
+    .git,
+    warsawlo/settings.py,
+    venv,
+    __pycache__
