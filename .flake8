@@ -3,4 +3,6 @@ exclude =
     .git,
     warsawlo/settings.py,
     venv,
-    __pycache__
+    __pycache__,
+    csvs,
+    **/migrations/*
