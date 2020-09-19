@@ -1,8 +1,11 @@
 [flake8]
-exclude = 
-    .git,
-    warsawlo/settings.py,
-    venv,
-    __pycache__,
-    csvs,
-    **/migrations/*
+ignore = E203, W503  # see https://pypi.org/project/black/
+exclude = \
+    search/migrations \
+    csvs \
+    node_modules \
+    manage.py \
+    warsawlo/settings.py \
+    .venv \
+    media
+max-line-length=100
